@@ -37,6 +37,9 @@
 > Para baixar o modelo padrão, digite: ``!ollama pull llama3.2:1b``
 
 4. Faça o upload dentro do notebook o codigo de automação junto com a base de perguntas e respostas para fazer o fine-tuning para adequar a inteligência artificial ao assunto: [Código de automação](https://github.com/c13neto/IAGRICULTOR/blob/main/codigo_de_automacao.py) | [Base de perguntas](https://github.com/c13neto/IAGRICULTOR/blob/main/perguntas_humanas.json)
+
+![quarto passo](image-copy.png)
+
 5. Existe duas formas de conseguir executar o modelo:
    1. Copiando o código de automação dentro do bloco de automação e executando
    2. Executar a seguinte linha no bloco de código do notebook: ``!python3 codigo_automacao.py``

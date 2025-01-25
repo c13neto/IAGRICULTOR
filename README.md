@@ -14,10 +14,9 @@
 ### Utilização:
 
 1. Utilize o [Colab Google](https://colab.research.google.com/) como máquina virtual para conseguir perfomance aceitavel.
-    ![Primeiro passo](image.png)
+   ![Primeiro passo](image.png)
 
    ![passo](image_copy.png)
-
 2. Em seguida copie o seguinte código dentro do primeiro bloco:
 
 ```
@@ -42,4 +41,5 @@
 
 5. Existe duas formas de conseguir executar o modelo:
    1. Copiando o código de automação dentro do bloco de automação e executando
-   2. Executar a seguinte linha no bloco de código do notebook: ``!python3 codigo_automacao.py``
+   2. Executar a seguinte linha no bloco de código do notebook: ``!python3 codigo_de_automacao.py``
+   3. Em seguida espere a base de dados interagir com o ollama até aparecer a caixa de mensagem

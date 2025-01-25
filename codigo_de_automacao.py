@@ -3,7 +3,7 @@ import requests
 
 # Configurações da API do Ollama
 OLLAMA_URL = "http://localhost:11434/api/chat"  # URL padrão da API local do Ollama
-MODEL_NAME = "deepseek-r1:7b"  # Substitua pelo nome do modelo que você está usando no Ollama
+MODEL_NAME = "llama3.2:1b"  # Substitua pelo nome do modelo que você está usando no Ollama
 
 # Função para enviar uma mensagem para a API do Ollama
 def enviar_para_ollama(model, pergunta):

@@ -8,7 +8,7 @@
 
 ### O modelo foi:
 
-- Treinado com Biblioteca da Embrapa
+- Treinado com Biblioteca da Embrapa: [Base de dados](https://github.com/c13neto/IAGRICULTOR/blob/main/LINKS%20DOS%20ARTIGOS.xlsx)
 - Utilizado técnicas de fine-tuning e engenharia de prompt
 
 ### Utilização:

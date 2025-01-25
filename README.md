@@ -12,9 +12,6 @@
 
 - Treinado com Biblioteca da Embrapa
 - Utilizado técnicas de fine-tuning e engenharia de prompt
-- Uso de RAG para aumento do repertório
-
----
 
 ### Utilização:
 
@@ -37,4 +34,6 @@
 > O padrão do código de automação é o llama3.2:1b, caso queria trocar por outro modelo, troque-o na váriavel "model_name"
 
 4. Faça o upload dentro do notebook o codigo de automação junto com a base de perguntas e respostas para fazer o fine-tuning para adequar a inteligência artificial ao assunto: [Código automação](https://github.com/c13neto/IAGRICULTOR/blob/main/codigo_de_automacao.py) | [Base de peguntas](https://github.com/c13neto/IAGRICULTOR/blob/main/perguntas_humanas.json)
-5.
+5. Existe duas formas de conseguir executar o modelo:
+   1. Copiando o código de automação dentro do bloco de automação e executando
+   2. Executar a seguinte linha no bloco de código do notebook: ``!python3 codigo_automacao.ipynb``

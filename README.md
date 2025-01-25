@@ -13,4 +13,13 @@
 ***
 
 ### Utilização:
-1. Utilize o [Colab Google](https://colab.research.google.com/) como máquina virtual para conseguir 
+1. Utilize o [Colab Google](https://colab.research.google.com/) como máquina virtual para conseguir perfomance aceitavel.
+2. Em seguida copie o seguinte código dentro do primeiro bloco:
+
+```
+!pip install colab-xterm pyexcel_ods
+%load_ext colabxterm
+%xterm
+!curl -fsSL https://ollama.com/install.sh | sh
+!nohup ollama serve &
+```

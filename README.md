@@ -30,7 +30,6 @@
 3. Baixe o modelo desejado, no caso desse experimento foram:
 
    - llama3.2:1b
-   - qwen2.5:1b
 
 > O padrão do código de automação é o llama3.2:1b, caso queria trocar por outro modelo, troque-o na váriavel "model_name"
 > Para baixar o modelo padrão, digite: ``!ollama pull llama3.2:1b``

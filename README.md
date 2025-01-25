@@ -28,4 +28,4 @@
      - llama3.2:1b
      - qwen2.5:1b
 
-4. Faça o upload dentro do notebook e utilize o codigo de automação junto com a base de perguntas e respostas para fazer o fine-tuning para adequar a intêlgencia artificial ao assunto: [Código automação]()
+4. Faça o upload dentro do notebook e utilize o codigo de automação junto com a base de perguntas e respostas para fazer o fine-tuning para adequar a intêlgencia artificial ao assunto: [Código automação](https://github.com/c13neto/IAGRICULTOR/blob/main/codigo_de_automacao.py)

@@ -23,3 +23,9 @@
 !curl -fsSL https://ollama.com/install.sh | sh
 !nohup ollama serve &
 ```
+3. Baixe o modelo desejado, no caso desse experimento foram:
+
+     - llama3.2:1b
+     - qwen2.5:1b
+
+4. 

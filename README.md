@@ -27,7 +27,7 @@
 !nohup ollama serve &
 ```
 
-3. Baixe o modelo desejado, no caso desse experimento foram:
+3. Baixe o modelo desejado, no caso desse experimento foi:
 
    - llama3.2:1b
 

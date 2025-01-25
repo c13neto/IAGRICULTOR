@@ -14,6 +14,10 @@
 ### Utilização:
 
 1. Utilize o [Colab Google](https://colab.research.google.com/) como máquina virtual para conseguir perfomance aceitavel.
+    ![Primeiro passo](image.png)
+
+   ![passo](image_copy.png)
+
 2. Em seguida copie o seguinte código dentro do primeiro bloco:
 
 ```
@@ -30,8 +34,9 @@
    - qwen2.5:1b
 
 > O padrão do código de automação é o llama3.2:1b, caso queria trocar por outro modelo, troque-o na váriavel "model_name"
+> Para baixar o modelo padrão, digite: ``!ollama pull llama3.2:1b``
 
 4. Faça o upload dentro do notebook o codigo de automação junto com a base de perguntas e respostas para fazer o fine-tuning para adequar a inteligência artificial ao assunto: [Código de automação](https://github.com/c13neto/IAGRICULTOR/blob/main/codigo_de_automacao.py) | [Base de perguntas](https://github.com/c13neto/IAGRICULTOR/blob/main/perguntas_humanas.json)
 5. Existe duas formas de conseguir executar o modelo:
    1. Copiando o código de automação dentro do bloco de automação e executando
-   2. Executar a seguinte linha no bloco de código do notebook: ``!python3 codigo_automacao.ipynb``
+   2. Executar a seguinte linha no bloco de código do notebook: ``!python3 codigo_automacao.py``

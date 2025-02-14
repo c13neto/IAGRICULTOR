@@ -9,7 +9,7 @@
 ### O modelo foi:
 
 - Treinado com Biblioteca da Embrapa: [Base de dados](hhttps://github.com/c13neto/IAGRICULTOR/blob/main/base_de_dados.pdf)
-- Utilizado técnicas de [fine-tuning](https://github.com/c13neto/IAGRICULTOR/blob/main/fine_tuning.csv) e engenharia de prompt
+- Utilizado técnicas de [fine-tuning](https://github.com/c13neto/IAGRICULTOR/blob/main/fine_tuning.csv), RAG e engenharia de prompt
 
 ### Utilização:
 
@@ -18,8 +18,8 @@
 
 ### Dominio do modelo sobre o assunto:
 
-| Modelo/Tecnica| Zero-shot | One-shot | Few-shot | Fine-tuning | Total  |
+| Modelo/Técnica| Zero-shot | One-shot | Few-shot | Fine-tuning | Total  |
 | ---------| --------- | -------- | -------- | ------ | -----  |
 | Llama3.2:1b| 57,03%    | 66,31%   | 52,55%   | 99,13% | 68,91  |
 
-Todas essas relações, processos e metodos estão disponiveis no [Relatório](https://docs.google.com/document/d/18wnt_FDwIP3PYce3bGL1IeU32y-0IdIrfY5-gVB6GOg/edit?usp=sharing) disponivel para leitura.
+Todas essas relações, processos e métodos estão disponiveis no [Relatório](https://docs.google.com/document/d/18wnt_FDwIP3PYce3bGL1IeU32y-0IdIrfY5-gVB6GOg/edit?usp=sharing) disponivel para leitura.

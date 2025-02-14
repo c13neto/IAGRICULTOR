@@ -18,8 +18,8 @@
 
 ### Dominio do modelo sobre o assunto:
 
-| Zero-shot | One-shot | Few-shot | Total  |
-| --------- | -------- | -------- | ------ |
-| 57,03%    | 66,31%   | 52,55%   | 58,83% |
+| Modelo/Tecnica| Zero-shot | One-shot | Few-shot | Fine-tuning | Total  |
+| ---------| --------- | -------- | -------- | ------ | -----  |
+| Llama3.2:1b| 57,03%    | 66,31%   | 52,55%   | 99,13% | 68,91  |
 
 Todas essas relações, processos e metodos estão disponiveis no [Relatório](https://docs.google.com/document/d/18wnt_FDwIP3PYce3bGL1IeU32y-0IdIrfY5-gVB6GOg/edit?usp=sharing) disponivel para leitura.

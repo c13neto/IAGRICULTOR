@@ -8,45 +8,18 @@
 
 ### O modelo foi:
 
-- Treinado com Biblioteca da Embrapa: [Base de dados](https://github.com/c13neto/IAGRICULTOR/blob/main/LINKS%20DOS%20ARTIGOS.xlsx)
-- Utilizado técnicas de fine-tuning e engenharia de prompt
+- Treinado com Biblioteca da Embrapa: [Base de dados](hhttps://github.com/c13neto/IAGRICULTOR/blob/main/base_de_dados.pdf)
+- Utilizado técnicas de [fine-tuning](https://github.com/c13neto/IAGRICULTOR/blob/main/fine_tuning.csv) e engenharia de prompt
 
 ### Utilização:
 
-1. Utilize o [Colab Google](https://colab.research.google.com/) como máquina virtual para conseguir perfomance aceitavel.
-   ![Primeiro passo](image.png)
+- Faça uma copia de nosso modelo no [Colab](https://colab.research.google.com/drive/1OriBWhNBr31BZDwA1JTdAhXFtydv9Yjv?usp=sharing)
+- Adicione sua chave de token do [Hugging Face](https://huggingface.co/docs/hub/security-tokens) no [Colab Token](https://medium.com/@parthdasawant/how-to-use-secrets-in-google-colab-450c38e3ec75)
 
-   ![passo](image_copy.png)
-2. Em seguida copie o seguinte código dentro do primeiro bloco:
+### Dominio do modelo sobre o assunto:
 
-```
-!pip install colab-xterm pyexcel_ods
-%load_ext colabxterm
-%xterm
-!curl -fsSL https://ollama.com/install.sh | sh
-!nohup ollama serve &
-```
-
-3. Baixe o modelo desejado, no caso desse experimento foi:
-
-   - llama3.2:1b
-
-> O padrão do código de automação é o llama3.2:1b, caso queria trocar por outro modelo, troque-o na váriavel "model_name"
-> Para baixar o modelo padrão, digite: ``!ollama pull llama3.2:1b``
-
-4. Faça o upload dentro do notebook o codigo de automação junto com a base de perguntas e respostas para fazer o fine-tuning para adequar a inteligência artificial ao assunto: [Código de automação](https://github.com/c13neto/IAGRICULTOR/blob/main/codigo_de_automacao.py) | [Base de perguntas](https://github.com/c13neto/IAGRICULTOR/blob/main/perguntas_humanas.json)
-
-![quarto passo](image-copy.png)
-
-5. Existe duas formas de conseguir executar o modelo:
-   1. Copiando o código de automação dentro do bloco de automação e executando
-   2. Executar a seguinte linha no bloco de código do notebook: ``!python3 codigo_de_automacao.py``
-   3. Em seguida espere a base de dados interagir com o ollama até aparecer a caixa de mensagem
-
-6. Dominio do modelo sobre o assunto:
-
-| Zero-shot | One-shot |Few-shot| Total |
-| ----------- | ----------- | -----------|----------- |
-|57,03% |66,31%|52,55%|58,83%|
+| Zero-shot | One-shot | Few-shot | Total  |
+| --------- | -------- | -------- | ------ |
+| 57,03%    | 66,31%   | 52,55%   | 58,83% |
 
 Todas essas relações, processos e metodos estão disponiveis no [Relatório](https://docs.google.com/document/d/18wnt_FDwIP3PYce3bGL1IeU32y-0IdIrfY5-gVB6GOg/edit?usp=sharing) disponivel para leitura.
